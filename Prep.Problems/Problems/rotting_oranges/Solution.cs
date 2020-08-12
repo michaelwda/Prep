@@ -10,10 +10,6 @@ namespace Prep.Problems.Problems.rotting_oranges
     {
         public int OrangesRotting(int[][] grid)
         {
-            //Early Exit Conditions:
-            //Empty Grid
-            //Non-Rotten Fruit exists that cannot be reached
-
             //Empty Grid passed in
             if (grid.Length == 0)
                 return -1;
@@ -27,8 +23,7 @@ namespace Prep.Problems.Problems.rotting_oranges
                 for (var column = 0; column < grid[0].Length; column++)
                 {
                     var orange = GetOrange(grid, row, column);
-                    
-                    //Just to prevent duplicate work, I'm also building a list of rotten and fresh fruit in this step
+                    //Build my queue
                     if (orange == 1)
                     {
                         freshOrangesLeft++;
