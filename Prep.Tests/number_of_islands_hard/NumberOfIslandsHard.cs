@@ -1,7 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Prep.Problems.Problems.number_of_islands_hard;
 
-namespace Prep.Tests
+namespace Prep.Tests.number_of_islands_hard
 {
     [TestClass]
     public class NumberOfIslandsHard

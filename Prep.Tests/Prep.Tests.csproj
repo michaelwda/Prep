@@ -16,8 +16,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Prep.Problems\Prep.Problems.csproj" />
-  </ItemGroup>
-
 </Project>

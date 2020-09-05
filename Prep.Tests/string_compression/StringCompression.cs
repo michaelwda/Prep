@@ -1,22 +1,21 @@
-using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Prep.Problems.Problems.gcd_of_string;
 
-namespace Prep.Tests
+namespace Prep.Tests.string_compression
 {
     [TestClass]
-    public class GcdOfString
+    public class StringCompression
     {
         private readonly Solution _solution = new Solution();
         
         [TestMethod]
         public void Example1()
         {
-            var result = _solution.GcdOfStrings("ABABAB", "ABAB");
+            var result = _solution.Compress(new []{'a','a'});
 
-            Assert.AreEqual("AB", result);
+            Assert.AreEqual(2, result);
         }
         
+
 
     }
 }

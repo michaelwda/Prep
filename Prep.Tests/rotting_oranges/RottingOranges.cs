@@ -1,7 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Prep.Problems.Problems.rotting_oranges;
 
-namespace Prep.Tests
+namespace Prep.Tests.rotting_oranges
 {
     [TestClass]
     public class RottingOranges

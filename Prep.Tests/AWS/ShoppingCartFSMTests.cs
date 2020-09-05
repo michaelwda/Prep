@@ -1,9 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Prep.Problems.Problems.AWS;
 
-
-namespace Prep.Tests
+namespace Prep.Tests.AWS
 {
     [TestClass]
     public class ShoppingCartFSMTests

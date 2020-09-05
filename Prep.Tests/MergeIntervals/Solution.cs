@@ -1,0 +1,4 @@
+﻿namespace Prep.Tests.MergeIntervals
+{
+   
+}

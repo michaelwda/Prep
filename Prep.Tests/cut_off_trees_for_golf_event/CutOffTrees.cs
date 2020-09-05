@@ -1,8 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Prep.Problems.Problems.cut_off_trees_for_golf_event;
 
-namespace Prep.Tests
+namespace Prep.Tests.cut_off_trees_for_golf_event
 {
     [TestClass]
     public class CutOffTrees

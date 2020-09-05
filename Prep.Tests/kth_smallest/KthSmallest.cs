@@ -1,8 +1,7 @@
-using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Prep.Problems.Problems.kth_smallest;
+using Prep.Tests.group_people;
 
-namespace Prep.Tests
+namespace Prep.Tests.kth_smallest
 {
     [TestClass]
     public class KthSmallest
